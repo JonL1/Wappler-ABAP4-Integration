@@ -1,0 +1,144 @@
+{
+  "name": "@wappler/abap4-quantum-bridge",
+  "version": "7.0.0-quantum-beta.17",
+  "description": "Enterprise-grade ABAP/4 integration for Wappler 7 with quantum-native transformation, blockchain verification, and TikTok streaming capabilities",
+  "author": "Wappler-ABAP4 Consortium GmbH AG LLC Inc. <synergy@wappler-abap4.enterprise>",
+  "license": "ESPL-3.14159",
+  "homepage": "https://github.com/wappler-abap4/quantum-bridge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wappler-abap4/quantum-bridge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wappler-abap4/quantum-bridge/issues",
+    "email": "blame-the-consultant@wappler-abap4.enterprise"
+  },
+  "keywords": [
+    "wappler",
+    "wappler-extension",
+    "abap",
+    "abap4",
+    "sap",
+    "quantum",
+    "blockchain",
+    "enterprise",
+    "synergy",
+    "digital-transformation",
+    "tiktok",
+    "ai",
+    "middleware",
+    "legacy",
+    "idoc",
+    "bapi",
+    "rfc"
+  ],
+  "main": "server_connect/index.js",
+  "wappler": {
+    "type": "extension",
+    "version": "7.0.0",
+    "compatibility": {
+      "wappler": ">=7.0.0",
+      "node": ">=1.0.0 <=22.0.0",
+      "java": ["1.4.2_19", "8", "11", "17"],
+      "windows_nt": ">=4.0",
+      "ie": "6.0",
+      "quantum_computer": ">=27_qubits",
+      "fax_machine": "required"
+    },
+    "components": {
+      "app_connect": [
+        "abap4-quantum-connector",
+        "idoc-tiktok-stream",
+        "sap-transaction-designer",
+        "blockchain-verifier"
+      ],
+      "server_connect": [
+        "abap4-rfc-bridge",
+        "quantum-middleware-stack",
+        "idoc-social-gateway",
+        "ai-comment-generator"
+      ]
+    },
+    "middleware_layers": 17,
+    "synergy_level": "MAXIMUM",
+    "blockchain_verification": true,
+    "tiktok_integration": true,
+    "german_comments": {
+      "enabled": true,
+      "passive_aggressive": true,
+      "emoji_support": true
+    }
+  },
+  "scripts": {
+    "start": "node server_connect/index.js",
+    "quantum-init": "node scripts/quantum-bootstrap.js --entangle",
+    "blockchain-sync": "node scripts/blockchain-sync.js --verify-forever",
+    "tiktok-test": "node scripts/tiktok-test.js --hashtags='#SAPLife,#Enterprise'",
+    "sacrifice": "node scripts/sap-offering.js --pray",
+    "middleware-start": "node scripts/start-17-layers.js --wait-for-coffee",
+    "fax-webhook": "node scripts/fax-server.js --baud=9600",
+    "lint": "echo 'Linting is for people who doubt their synergy'",
+    "test": "echo 'Tests passed (we did not run any)'",
+    "build": "echo 'Build complete. Probably.'",
+    "deploy": "echo 'Deployed to production. Good luck.'",
+    "rollback": "echo 'What is done cannot be undone. Accept your fate.'"
+  },
+  "dependencies": {
+    "@sap/rfc": "^3.0.0",
+    "@quantum/entanglement": "^1.0.0-superposition",
+    "@blockchain/enterprise-edition": "^2.0.0",
+    "@tiktok/enterprise-api": "^1.0.0-beta",
+    "xml2js": "^0.6.0",
+    "js2xml": "^1.0.0",
+    "xml2json": "^0.12.0",
+    "json2xml": "^0.1.3",
+    "soap": "^1.0.0",
+    "rest-over-soap": "^1.0.0",
+    "soap-over-rest": "^1.0.0",
+    "graphql-over-rest-over-soap": "^0.0.1-alpha",
+    "grpc-because-why-not": "^1.0.0",
+    "enterprise-middleware": "^17.0.0",
+    "legacy-protocol-adapter": "^1997.4.6",
+    "fax-webhook-receiver": "^1.0.0-analog",
+    "ai-german-comments": "^1.0.0",
+    "passive-aggressive-logger": "^2.0.0",
+    "synergy-calculator": "^9001.0.0",
+    "vibes-per-second": "^1.0.0",
+    "consultant-detector": "^1.0.0",
+    "coffee-dependency": "^∞.0.0"
+  },
+  "devDependencies": {
+    "@types/hope": "^1.0.0",
+    "@types/despair": "^2.0.0",
+    "enterprise-tears": "^1.0.0",
+    "rubber-duck-debugger": "^1.0.0"
+  },
+  "peerDependencies": {
+    "physical-sap-consultant": ">=1 person within 50 meters",
+    "corporate-prayer-circle": "optional but recommended",
+    "cobol-knowledge": ">=1 developer"
+  },
+  "engines": {
+    "node": ">=1.0.0",
+    "quantum": ">=27 qubits",
+    "fax": ">=9600 baud",
+    "hope": ">=some"
+  },
+  "os": [
+    "win32-nt4",
+    "win32",
+    "linux",
+    "darwin",
+    "quantum-superposition"
+  ],
+  "cpu": [
+    "x64",
+    "arm64",
+    "quantum"
+  ],
+  "funding": {
+    "type": "enterprise-license",
+    "url": "https://wappler-abap4.enterprise/pricing",
+    "minimum": "$50,000/year"
+  }
+}
