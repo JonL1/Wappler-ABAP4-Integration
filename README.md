@@ -308,15 +308,33 @@ Tested on a Raspberry Pi Zero running Windows NT 4.0 in QEMU:
 
 ---
 
+## 🎭 THIS IS A PARODY
+
+**IMPORTANT: This repository is SATIRE.** It is not real software. It does not work. It will never work. It is a comedic commentary on enterprise software culture, buzzword-driven architecture, and the general absurdity of corporate technology marketing.
+
+If you arrived here looking for an actual SAP-Wappler integration:
+1. This is not it
+2. Please reconsider your search terms
+3. We recommend touching grass
+
+If you did not immediately recognize this as satire, please see the [LICENSE](./LICENSE) file for a detailed explanation of why you should reevaluate your relationship with reality.
+
+**No fax machines were harmed in the making of this repository.**
+
+---
+
 ## 📜 License
 
-This software is licensed under the **Enterprise Synergy Public License (ESPL) v3.14159**:
+This software is licensed under the **[Enterprise Synergy Passive-Aggressive License (ESPAL) v3.14159](./LICENSE)**:
 
 > You may use this software provided you:
-> 1. Attend at least one webinar per quarter
-> 2. Use the word "synergy" in all related communications
-> 3. Never ask what it actually does
-> 4. Accept that the documentation is "coming soon" forever
+> 1. Acknowledge this is a PARODY
+> 2. Do NOT attempt to run this in production
+> 3. Do NOT present this to management as a real solution
+> 4. Accept full responsibility if you ignore these warnings
+> 5. Never ask what it actually does (because it does nothing)
+
+See [LICENSE](./LICENSE) for the full terms, conditions, existential warnings, and the "Klaus Clause".
 
 ---
 
