@@ -1,8 +1,16 @@
 # Installation Guide
 
-## Wappler ABAP/4 Quantum Bridge - Complete Installation Procedure
+## ⚠️ THIS IS A PARODY - DO NOT ATTEMPT TO INSTALL ⚠️
 
-> *Estimated time: 2-47 weeks depending on consultant availability*
+**This software does not exist.** The following "installation guide" is SATIRE. It is designed to be obviously absurd (requiring Windows NT 4.0, fax machines, and quantum computers).
+
+**If you are reading this looking for real installation instructions, please stop and read the LICENSE file.**
+
+---
+
+## Wappler ABAP/4 Quantum Bridge - Complete Installation Procedure (FAKE)
+
+> *Estimated time: 2-47 weeks depending on consultant availability (this is a joke)*
 
 ---
 
